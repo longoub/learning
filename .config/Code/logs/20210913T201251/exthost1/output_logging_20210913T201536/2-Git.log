@@ -1,0 +1,119 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /root/git/static-website-example
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /root/git/static-website-example/index.html
+> git cat-file -s 53b10045014870164ef19c84f06ed92b22fac047
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/git/static-website-example/index.html
+> git cat-file -s 53b10045014870164ef19c84f06ed92b22fac047
+> git show --textconv :index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.MD
+> git ls-files --stage -- /root/git/static-website-example/README.MD
+> git cat-file -s 1dd688753a8c84a8935011b21b62bc283b640508
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :LICENSE.MD
+> git ls-files --stage -- /root/git/static-website-example/LICENSE.MD
+> git cat-file -s d447b560b84bbc2485b6d00a5f674eec5ecca246
+> git show --textconv :README.MD
+> git ls-files --stage -- /root/git/static-website-example/README.MD
+> git cat-file -s 1dd688753a8c84a8935011b21b62bc283b640508
+> git show --textconv :LICENSE.MD
+> git ls-files --stage -- /root/git/static-website-example/LICENSE.MD
+> git cat-file -s d447b560b84bbc2485b6d00a5f674eec5ecca246
+> git show --textconv :index.html
+> git ls-files --stage -- /root/git/static-website-example/index.html
+> git cat-file -s 53b10045014870164ef19c84f06ed92b22fac047
+> git show --textconv :class-01-08
+> git ls-files --stage -- /root/git/static-website-example/class-01-08
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.MD
+> git ls-files --stage -- /root/git/static-website-example/README.MD
+> git cat-file -s 1dd688753a8c84a8935011b21b62bc283b640508
+> git show --textconv :class-01-08
+> git ls-files --stage -- /root/git/static-website-example/class-01-08
+> git show --textconv :LICENSE.MD
+> git ls-files --stage -- /root/git/static-website-example/LICENSE.MD
+> git cat-file -s d447b560b84bbc2485b6d00a5f674eec5ecca246
+> git show --textconv :README.MD
+> git ls-files --stage -- /root/git/static-website-example/README.MD
+> git cat-file -s 1dd688753a8c84a8935011b21b62bc283b640508
+> git show --textconv :class-01-08
+> git ls-files --stage -- /root/git/static-website-example/class-01-08
+> git show --textconv :file1.txt
+> git ls-files --stage -- /root/git/static-website-example/file1.txt
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :class-01-08
+> git ls-files --stage -- /root/git/static-website-example/class-01-08
+> git show --textconv :file1.txt
+> git ls-files --stage -- /root/git/static-website-example/file1.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.MD
+> git ls-files --stage -- /root/git/static-website-example/README.MD
+> git cat-file -s 1dd688753a8c84a8935011b21b62bc283b640508
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/git/static-website-example/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n28 -- /root/git/static-website-example/README.MD
+> git show --textconv HEAD:README.MD
+> git ls-tree -l HEAD -- /root/git/static-website-example/README.MD

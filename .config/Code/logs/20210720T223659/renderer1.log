@@ -1,0 +1,6 @@
+[2021-07-20 23:07:18.944] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/run/speech-dispatcher/.speech-dispatcher" points to "/run/speech-dispatcher"
+[2021-07-20 23:07:21.290] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/run/speech-dispatcher/.cache/speech-dispatcher" points to "/run/speech-dispatcher"
+[2021-07-20 23:07:33.532] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/snap/code/70/usr/bin/X11" points to "/snap/code/70/usr/bin"
+[2021-07-20 23:07:33.769] [renderer1] [warning] [File Watcher (chokidar)] Error: Circular symlink detected: "/snap/gnome-3-34-1804/36/usr/bin/X11" points to "/snap/gnome-3-34-1804/36/usr/bin"
+[2021-07-20 23:07:38.906] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-07-20 23:07:38.908] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
